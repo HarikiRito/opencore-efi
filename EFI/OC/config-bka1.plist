@@ -1020,7 +1020,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>Disabled</string>
+			<string>Default</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1071,11 +1071,11 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string> -v keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera npci=0x2000 ncpi=0x3000</string>
+				<string>-v keepsyms=1 debug=0x100 npci=0x2000 agdpmod=pikera alcid=1</string>
 				<key>csr-active-config</key>
-				<data>/w8AAA==</data>
+				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
-				<data></data>
+				<string>en-US:0</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
@@ -1143,23 +1143,23 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>F5K001102QXK3F78C</string>
+			<string>C02053130CDJG36JC</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>WEBOhrnJ</data>
+			<data>8NziH6nz</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacPro7,1</string>
+			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KC2NZKP7QM</string>
+			<string>C02F1LYZHX87</string>
 			<key>SystemUUID</key>
-			<string>CA7EB3BF-6665-4E6A-9E6B-C49B252C651B</string>
+			<string>20ED1E8C-AD2C-4947-9D05-F71BCC281D4E</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1185,9 +1185,9 @@
 			<key>JumpstartHotPlug</key>
 			<false/>
 			<key>MinDate</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 			<key>MinVersion</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 		</dict>
 		<key>AppleInput</key>
 		<dict>
