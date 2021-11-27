@@ -1,6 +1,6 @@
 # Spec
 CPU: Ryzen 5 3500
 
-GPU: RX5600 XT
+GPU: RX6900 XT
 
 Board: Asus B450M
